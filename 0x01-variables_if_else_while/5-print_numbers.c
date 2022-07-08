@@ -5,7 +5,6 @@
  *
  * Return: Always (Success)
  */
-
 int main(void)
 {
 	char n;
