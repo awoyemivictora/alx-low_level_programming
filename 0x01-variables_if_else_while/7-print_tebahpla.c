@@ -2,8 +2,7 @@
 
 /** 
  * main - Prints the alphabet at reverse
- *
- * Return: Alwasy (Success)
+ *Return: Alwasy (Success)
  */
 int main(void)
 {
