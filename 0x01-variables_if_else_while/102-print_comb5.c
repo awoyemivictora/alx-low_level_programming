@@ -7,41 +7,35 @@
  */
 int main(void)
 {
-int c, i, k, j;
+	int n1 = 48;
+	int a = 0;
+	int b;
+	int com = 44;
 
-for (c = 48; c <= 57; c++)
+	while (a <= 99)
 	{
-		for (i = 48; i <= 57; i++)
-		{
-			for (k = 48; j <=57; j++)
-			{
-				for (j = 48; j <= 57; j++)
-				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
-					{
-						putchar(c);
-						putchar(i);
-						putchar(' ');
-						putchar(k);
-						putchar(j);
+		b = a + 1;
 
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
+		while (b <= 99)
+		{
+			putchar((a / 10) + n1);
+			putchar((a % 10) + n1);
+			putchar(32);
+			putchar((b / 10) + n1);
+			putchar((b % 10) + n1);
+
+			if (a != 98 || b != 99)
+			{
+				putchar(com);
+				putchar(32);
 			}
+
+			b += 1;
 		}
+
+		a += 1;
 	}
 
-putchar('\n');
-
-return (0);
-
+	putchar('\n');
+	return (0);
 }
