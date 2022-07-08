@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-/** 
- * main - Prints the alphabet at reverse
- * Followed by new line
- * Return: 0
+/**
+ * main - prints alphabets in reverse
+ * followed by  new line
+ * Return: 0 if (successful)
  */
+
 int main(void)
 {
-	char c;
+	char ch;
 
-	for (c = 'z'; c >= 'a'; c--)
-	{
-		putchar(c);
-	}
-
+	for (ch = 'z'; ch >= 'a'; ch--)
+		{
+	putchar(ch);
+		}
 	putchar('\n');
 	return (0);
 }
