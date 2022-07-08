@@ -2,7 +2,8 @@
 
 /** 
  * main - Prints the alphabet at reverse
- *Return: Alwasy (Success)
+ * Followed by new line
+ * Return: 0
  */
 int main(void)
 {
@@ -14,6 +15,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 }
