@@ -5,7 +5,6 @@
  *
  * Return: Alwasy (Success)
  */
-
 int main(void)
 {
 	char c;
