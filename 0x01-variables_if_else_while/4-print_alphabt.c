@@ -6,7 +6,6 @@
  * followed by a new line
  * Return: 0 if (successful)
  */
-
 int main(void)
 {
 	char ch = 'a';
