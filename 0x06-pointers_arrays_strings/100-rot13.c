@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * rot13 - Function that encodes a string using rot13
+ * rot13 - function that encodes a atring using rot13
  * @s: given string
  * Return: encoden string
  */
 
-char *rot13(char *)
+char *rot13(char *s)
 {
-	char str1[] = "ABCDEFGHIJKLMNOPQRSTUVWSYZabcdefghijklmnopqrstuvwsyz";
-	char str2[] = "NNOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char str1[] = "AABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char str2[] = "NNOPQRSTUVWXYZABCDEFGIFJKLMnopqrstuvwxyzabcdefghijklm";
 	int ia = 0;
 	int ib = 0;
 
