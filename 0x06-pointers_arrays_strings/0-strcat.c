@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - Function that appends the src string to the dest.
- * Overwriting the terminating null byte (/0) at the end of dest
- *
- * Return: Always (0);
+ * _strcat - >This is a fucntion strcat
+ * @dest: first param
+ * @src: seconf param
+ * Return: a string
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
 
