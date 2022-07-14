@@ -1,9 +1,10 @@
 #include "main.h"
+
 #include <string.h>
 
 /**
- * _strcmp - Function that compares two strings
- * 
+ * _strcmp -> for comparing purpose
+ *
  * @s1: param1
  * @s2: param2
  *
