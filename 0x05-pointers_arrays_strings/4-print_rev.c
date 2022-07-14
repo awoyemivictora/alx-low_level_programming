@@ -1,21 +1,21 @@
 #include "main.h"
-
 /**
- * main - Function that prints a string in reverse
- *
- * @s: the string to be printed in rev
+ * print_rev - check the code for Alx School students.
+ * @s: pointer int type
+ * Return: Always 0.
  */
-
 void print_rev(char *s)
 {
-	int i, n;
+int len;
+for (len = 0; *s != '\0'; len++)
+s++;
 
-	n = 0;
-	while (s[n] != '\0')
-		n++;
-	for (i = n - 1; i >= 0; i--)
-	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
+s--;
+for (len = len; len != 0; len--)
+{
+_putchar(*s);
+s--;
+}
+
+_putchar('\n');
 }
