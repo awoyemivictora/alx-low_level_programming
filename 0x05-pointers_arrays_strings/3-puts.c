@@ -1,18 +1,22 @@
 #include "main.h"
 
 /**
- * _puts - this is a function that puts
- *
- * A function that prints a string
- * Return: Always 0
+ *  * _puts - prints a string
+ *   * @str: string
+ *    * Return: void
  */
-
-void _puts(char *str);
+void _puts(char *str)
 {
-	char *str;
+	int count = 0;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-
-	Return (0);
+	while (count >= 0)
+	{
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[count]);
+		count++;
+	}
 }
