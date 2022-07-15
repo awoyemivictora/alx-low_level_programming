@@ -42,7 +42,7 @@ void print_buffer(char *b, int size)
 			printf("%08x: ", start);
 			printHexes(b, start, end);
 			printASCII(b, start, end);
-			printf("\n');
+			printf("\n");
 		}
 	}else
 		printf("\n");
