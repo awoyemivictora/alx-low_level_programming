@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * reset_to_98 - changes pinter to point to value 98
