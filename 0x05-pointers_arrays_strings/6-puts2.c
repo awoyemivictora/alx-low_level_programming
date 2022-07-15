@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * puts2 - puts2 function
- * @str: str parameter
- *
- * Return: Always (0);
- */
+* puts2 - puts2 function
+* @str: str parameter
+*
+* Return: Always (0);
+*/
 
 void puts2(char *str)
 {
