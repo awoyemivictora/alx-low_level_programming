@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _memset - Is a function that changes the value of b for another in the first n bytes
+ * _memset - Function that changes the value of b for another in the first n bytes
  *
- * @s: pointer to the variable's address which is going to be overwritten with 'b'
+ * @s: pointer to the variable's address to be overwritten with 'b'
  * @b: variable that contains the value to be overwritten in the pointer '*s'
- * @n: number of bytes that is going to be overwritten in pointer '*s'
+ * @n: number of bytes to be overwritten in pointer '*s'
  *
- * Return: pointer to the address which have change values
+ * Return: pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
