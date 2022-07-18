@@ -12,9 +12,9 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned in counter = 0;
+	unsigned int counter = 0;
 
-	while (counter = 0)
+	while (counter < n)
 	{
 		/*s position should raise and overwritten n */
 		s[counter] = b;
