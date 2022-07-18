@@ -10,7 +10,7 @@
  * Return: pointer to the address which have change values
  */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned in counter = 0;
 
