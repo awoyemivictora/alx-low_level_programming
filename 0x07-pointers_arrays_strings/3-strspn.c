@@ -8,7 +8,7 @@
  * Return: unsigned int with the number in bytes of the match
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	int i;
 	int j = 0;
