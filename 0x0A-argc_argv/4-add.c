@@ -1,38 +1,59 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- * main - Function that adds positive numbers
- * @argc: argument count
- * @argv: arguments
- *
- * Return: 0
+ * check_digit - checks if a given char is number or not
+ * @a: input char
+ * Return: int
  */
 
-int main(int argc, char *argv[])
+int check_digit(char *a)
 {
-	int i, n, sum = 0;
-	char *flag;
+	int i, num, len;
 
-	if (argc < 2)
+	i = 0;
+	num = 0;
+	len = strlen(a);
+
+	while (i < len)
 	{
-		printf("0\n");
-		return (0);
+		if (a[i] < '0' || a[i] > '9')
+		{
+			return (-1);
+		}
+		else
+			num = num * 10 + (a[i] - '0');
+		i++;
 	}
+	return (num);
+}
 
-	for (i = 1; argv[i]; i++)
+/**
+ * main - program that adds positive numbers
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: int
+ */
+
+ int main(int argc, char *argv[])
+ {
+ 	int i, num, res;
+
+	res = 0;
+
+	for (i = 1; i < argc; i++)
 	{
-		n = strtol(argv[i], &flag, 10);
+		num = check_digit(argv[i]);
+		if (num == -1)
 		{
 			printf("Error\n");
 			return (1);
 		}
-		else
-		{
-			sum += n;
-		}
+
+		res += num;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", res);
 
 	return (0);
-}
+ }
