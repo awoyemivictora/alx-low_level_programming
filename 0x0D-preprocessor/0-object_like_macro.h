@@ -5,6 +5,3 @@
 
 #endif
 
-/**
-* Creating header file that defines a macro named SIZE
-*/
