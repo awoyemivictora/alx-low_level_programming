@@ -37,7 +37,7 @@ void print_all(const char * const format, ...)
 					break;
 			default:
 					hasprint = 0;
-					break
+					break;
 		}
 		i++;
 
