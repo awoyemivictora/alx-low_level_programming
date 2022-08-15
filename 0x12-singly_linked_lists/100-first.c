@@ -8,6 +8,6 @@ void myStartupFun(void) __attribute__ ((constructor));
 
 void myStartupFun(void)
 {
-	printf("You're beat! and yet, you must allow,\mI");
+	printf("You're beat! and yet, you must allow,\nI");
 	printf(" bore my house upon my back!\n");
 }
