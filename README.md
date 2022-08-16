@@ -6,7 +6,7 @@
 <p>
 I just started working at ALX as a Software Engineer, and one of the requirements was that we learn the C programming language. Over the coming months, I'll be using what I've learned to complete what I've learned to complete simple tasks. Aspiring Software Engineers could use this repository as a starting point for their learning.
 </p><br>
-<h2>PROJECTS</h2><br>
+<h2>PROJECT TASKS</h2><br>
 <ul>
 <li><a href="https://github.com/Awoyemivictor/alx-low_level_programming/tree/master/0x00-hello_world"> 0x00-hello_world</a></li>
 <li><a href="https://github.com/Awoyemivictor/alx-low_level_programming/tree/master/0x01-variables_if_else_while"> 0x01-variables_if_else_while</a></li>
