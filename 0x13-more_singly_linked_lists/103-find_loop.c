@@ -14,7 +14,7 @@ listint_t *find_listint_loop(listint_t *head)
 	listint_t *tortoise, *hare;
 
 	if (head == NULL || head->next == NULL)
-			return (NULL);
+		return (NULL);
 
 	tortoise = head->next;
 	hare = (head->next)->next;
@@ -23,15 +23,15 @@ listint_t *find_listint_loop(listint_t *head)
 	{
 		if (tortoise == hare)
 		{
-				tortoise = head;
+			tortoise = head;
 
-				while (tortoise != hare)
-				{
-					tortoise = tortoise->next;
-					hare = hare->next;
-				}
+			while (tortoise != hare)
+			{
+				tortoise = tortoise->next;
+				hare = hare->next;
+			}
 
-				return (tortoise);
+			return (tortoise);
 		}
 
 		tortoise = tortoise->next;

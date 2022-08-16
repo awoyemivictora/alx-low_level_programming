@@ -18,7 +18,7 @@ size_t looped_listint_count(listint_t *head)
 	size_t nodes = 1;
 
 	if (head == NULL || head->next == NULL)
-			return (0);
+		return (0);
 
 	tortoise = head->next;
 	hare = (head->next)->next;
@@ -54,7 +54,7 @@ size_t looped_listint_count(listint_t *head)
 }
 
 /**
- * free_listint_safe - Frees a listint_t list safely 
+ * free_listint_safe - Frees a listint_t list safely
  * (i.e can free lists containing loops)
  *
  * @h: A pointer to the address of
@@ -83,14 +83,14 @@ size_t free_listint_safe(listint_t **h)
 
 	else
 	{
-			for (index = 0; index < nodes; index++)
-			{
-				tmp = (*h)->next;
-				free(*h);
-				*h = tmp;
-			}
+		for (index = 0; index < nodes; index++)
+		{
+			tmp = (*h)->next;
+			free(*h);
+			*h = tmp;
+		}
 
-			*h = NULL;
+		*h = NULL;
 	}
 
 	h = NULL;
