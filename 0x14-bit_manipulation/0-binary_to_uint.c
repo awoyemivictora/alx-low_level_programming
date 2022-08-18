@@ -1,10 +1,10 @@
-#include "main.h"
-#include <math.h>
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
+#include <math.h>
 
 /**
- * binary_to_uint - converts binary to unit
+ * binary_to_uint - converts binary to uint
  * @b: pointer to the character array in binary to be converted
  *
  * Return: converted number if successful, 0 otherwise
@@ -12,7 +12,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int i, base = 1, len = 0,
+	int i, base = 1, len = 0;
 	unsigned int res = 0;
 
 	if (!b)
